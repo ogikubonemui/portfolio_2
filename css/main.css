@@ -426,28 +426,28 @@ header{
 /*----------------------------------------------------
 	4. About me Style
 ------------------------------------------------------*/
-.aboutus{
+.aboutme{
 	background:#ffffff;
 	text-align:left;
 }
-.aboutus .container{
+.aboutme .container{
 	padding-top:80px ;
 	padding-bottom:47px ;
 }
-.aboutus img {
+.aboutme img {
 	padding:7px;
 	display:block;
 	border:1px solid #bab4bb;
 }
-.aboutus .heading p{
+.aboutme .heading p{
 	padding-bottom:41px;
 }
-.aboutus h4 {
+.aboutme h4 {
 	font-size:16px;
 	color:#5b4c5c;
 	padding-bottom:20px;
 }
-.aboutus .btn-primary {
+.aboutme .btn-primary {
 	border:2px solid #746c75;
 	background:none;
 	line-height:30px;
@@ -458,7 +458,7 @@ header{
 	font-weight:600;
 	border-radius: 0;
 }
-.aboutus .btn-primary:hover {
+.aboutme .btn-primary:hover {
 	color:#979497;
 }
 
@@ -588,7 +588,28 @@ header{
 /*----------------------------------------------------
 	 8. Protfolio Style
 ------------------------------------------------------*/
-.protfolio{
+
+
+.myportfolio {
+	background:#fff;
+}
+.myportfolio .container{
+	padding-top:65px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+
+.mytarget {
+	background: #f8f8f8;
+}
+
+.mytarget .container{
+	padding-top:67px ;
+	padding-bottom:0 ;
+	margin-bottom:-20px;
+}
+
+/*.protfolio{
 	background:#fff;
 	width:100%;
 	overflow:hidden;
@@ -863,7 +884,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 }
 #pbCloseBtn{
 	position:absolute !important;
-}
+}*/
 
 /*----------------------------------------------------
 	9. Contact Style
